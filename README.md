@@ -21,15 +21,19 @@ on Windows
 ```
 myenv\Scripts\activate
 ```
-5. Change directory
+5. Install Flask
+```
+pip install Flask
+```
+6. Change directory
 ```
 cd simple-vuln-web-demo-01/
 ```
-6. Run the app
+7. Run the app
 ```
 Flask run
 ```
-7. The app will run on localhost port 5000. Use web browser to access it http://127.0.0.1:5000.
+8. The app will run on localhost port 5000. Use web browser to access it http://127.0.0.1:5000.
 
 > ⚠️ **Warning:** The app is vulnerable to Remote Command Injection. The steps above will only expose the app to localhost which prevent remote access to the app. Please don't expose the app to external connection unless you understand the risk. Exposing the app to remote connection might allow real hacker to exploit the vulnerability and compromise the Host!!
 
