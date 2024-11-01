@@ -12,6 +12,7 @@ git clone https://github.com/suryadina/simple-vuln-web-demo-01.git
 python3 -m venv myenv
 ```
 4. Activate virtual environment
+
 on MacOs/Linux
 ```
 source myenv/bin/activate
