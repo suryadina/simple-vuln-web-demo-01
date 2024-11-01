@@ -29,4 +29,4 @@ cd simple-vuln-web-demo-01/
 ```
 Flask run
 ```
-7. The app will run on localhost port 5000. Use web browser to access it
+7. The app will run on localhost port 5000. Use web browser to access it http://127.0.0.1:5000
