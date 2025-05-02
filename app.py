@@ -50,6 +50,8 @@ def config_files():
 # Admin page requiring X-Forwarded-For header to be 127.0.0.1
 @app.route("/admin")
 def admin():
+    for header, value in request.headers.items():
+        print(f"{header}: {value}")
     x_forwarded_for = request.headers.get("True-Client-IP")
     if x_forwarded_for == "127.0.0.1":
         return """
