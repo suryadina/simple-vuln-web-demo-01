@@ -163,4 +163,4 @@ def remote_command_injection():
         abort(403, description="403 Not Authorized")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=5000)
