@@ -11,7 +11,7 @@ RUN git clone https://github.com/suryadina/simple-vuln-web-demo-01 /opt/simple-v
 WORKDIR /opt/simple-vuln-web-demo-01
 
 # Install dependencies
-#RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the port
 EXPOSE 80
