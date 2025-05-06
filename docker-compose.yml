@@ -4,5 +4,5 @@ services:
   vulnstore:
     build: .
     ports:
-      - "80:80"
+      - "80:5000"
     restart: unless-stopped
